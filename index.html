@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khawla Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+
+<header>
+    <div class="logo">Khawla Oufir</div>
+
+    <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="#home" class="nav-item">Home</a></li>
+            <li><a href="#about" class="nav-item">About Me</a></li>
+            <li><a href="#skills" class="nav-item">Skills</a></li>
+            <li><a href="#projects" class="nav-item">Projects</a></li>
+            <li><a href="#contact" class="nav-item">Contact</a></li>
+        </ul>
+    </nav>
+    <button id="theme-btn"><i class="fa-solid fa-moon"></i></button>
+</header>
+
+
+<section id="home">
+    <div class="home-container">
+        <div class="home-text">
+            <h2>Hi,</h2>
+            <h2> I am <span>Khawla</span></h2>
+            <h3>Full-stack Developer in</h3> 
+            <h3>Progress</h3>
+        </div>
+        <div class="home-image">
+            <img src="home.jpeg" alt="Khawla Portrait">
+        </div>
+    </div>
+</section>
+
+
+<section id="about">
+    <h2>About Me</h2>
+    <div class="about-container">
+        <div class="about-image">
+            <img src="aboutme.jpeg" alt="About Image">
+        </div>
+        <div class="about-text">
+            <p>Hello! My name is Khawla, I’m a 19-year-old student in my second year of Applied Computer Science at the university.
+I’ve always been passionate about technology and problem-solving, and over time, I naturally fell in love with web development, especially creating modern, elegant, and responsive interfaces.
+
+I graduated high school with a “Très Bien” distinction, which reflects my dedication, curiosity, and willingness to always give my best.
+Today, I’m continuously learning and improving my skills in front-end development, exploring HTML, CSS, JavaScript, and discovering new frameworks that allow me to express my creativity through code.
+
+What motivates me the most is the idea of building digital experiences that are both useful and beautiful.
+Every project is an opportunity to grow, challenge myself, and get closer to becoming the developer I aspire to be.</p>
+        </div>
+        
+    </div>
+</section>
+
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="my_skills_container">
+
+        <div class="card">
+            <div class="skill-card">
+                <h3><i class="fa-brands fa-html5"></i> HTML/CSS</h3>
+                <div class="progress-bar">
+                <div class="progress-fill" style="width:90%;"></div>
+            </div>
+        </div>
+        <div class="skill-card">
+            <h3><i class="fa-brands fa-js"></i> JavaScript</h3>
+            <div class="progress-bar">
+                <div class="progress-fill" style="width:80%;"></div>
+            </div>
+        </div>
+        <div class="skill-card">
+            <h3><i class="fa-brands fa-python"></i> Python</h3>
+            <div class="progress-bar">
+                <div class="progress-fill" style="width:70%;"></div>
+            </div>
+        </div>
+        <div class="skill-card">
+            <h3><i class="fa-solid fa-language"></i> French</h3>
+            <div class="progress-bar">
+                <div class="progress-fill" style="width:90%;"></div>
+            </div>
+        </div>
+        <div class="skill-card">
+            <h3><i class="fa-solid fa-language"></i> English</h3>
+            <div class="progress-bar">
+                <div class="progress-fill" style="width:80%;"></div>
+            </div>
+        </div>
+        <div class="skill-card">
+            <h3><i class="fa-solid fa-language"></i> Spanish</h3>
+            <div class="progress-bar">
+                <div class="progress-fill" style="width:60%;"></div>
+            </div>
+        </div>
+        <div class="skill-card">
+            <h3><i class="fa-brands fa-react"></i> React.js</h3>
+            <div class="progress-bar">
+                <div class="progress-fill" style="width:75%;"></div>
+            </div>
+        </div>
+        <div class="skill-card">
+            <h3><i class="fa-brands fa-php"></i> PHP</h3>
+            <div class="progress-bar">
+                <div class="progress-fill" style="width:70%;"></div>
+            </div>
+        </div>
+
+    </div>
+        <div class="skills-image">
+            <img src="skills.png" alt="Skills Image">
+        </div>
+    </div>
+</section>
+
+
+<section id="projects">
+    <h2 class="projects-title">My Projects</h2>
+
+    <div class="projects-container">
+
+        <div class="project-card">
+            <img src="digitalClock.png" class="project-img" alt="Project 1">
+            <h3>DigitalClock</h3>
+            <p>An elegant digital clock displaying real-time hours, minutes, seconds, and date, with an animated, responsive design suitable for all devices.</p>
+            <a href="https://khawlaoufir.github.io/DigitalClock/">View Project</a>
+        </div>
+
+        <div class="project-card">
+            <img src="galerie.png" class="project-img" alt="Project 2">
+            <h3>Glimpse</h3>
+            <p>A modern, responsive image gallery that allows users to enlarge photos in a stylish lightbox, featuring zoom and shadow effects on hover.</p>
+            <a href="https://khawlaoufir.github.io/Glimpse/">View Project</a>
+        </div>
+
+        <div class="project-card">
+            <img src="projet3.png" class="project-img" alt="Project 3">
+            <h3>QuoteGen</h3>
+            <p>An interactive quote generator that displays random inspirational quotes with their authors, styled with a colorful and modern design.</p>
+            <a href="https://khawlaoufir.github.io/QuoteGen/">View Project</a>
+        </div>
+
+    </div>
+</section>
+
+<div id="imgModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modalImg">
+</div>
+
+<section id="contact"> 
+    <h2>Contact Me</h2> 
+    <form target="_blank" action="https://formsubmit.co/your@email.com" method="POST"> 
+        <label for="name">Name</label> 
+        <input type="text" id="name" placeholder="Your Name"> 
+        <label for="email">Email</label> 
+        <input type="email" id="email" placeholder="Your Email"> 
+        <label for="message">Message</label> 
+        <textarea id="message" placeholder="Your Message"></textarea> 
+        <button type="submit">Submit</button> 
+    </form> 
+</section>
+
+<footer>
+    <div class="footer-container">
+        <h2 class="footer-name">Khawla Oufir</h2>
+        <div class="footer-icons">
+            <a href="https://wa.me/+212660760233"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="mailto:oufir.khawla@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/khawla-oufir-4325b7392"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <p class="footer-text">Khawla, All rights reserved</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
